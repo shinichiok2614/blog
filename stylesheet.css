@@ -1,0 +1,84 @@
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputSearch {
+    display: flex;
+    align-items: center;
+}
+
+.Banner li {
+    float: left;
+    display: block;
+    padding: 0px 10px;
+}
+
+.header2menu li {
+    float: left;
+    display: block;
+    padding: 0px 10px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100%;
+    overflow: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid;
+}
+
+body {
+    /* margin-left: 100px; */
+    margin-right: 100px;
+}
+.part1{
+    display: flex;
+}
+.row {
+    width: 80%;
+}
+.column {
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+.slideBar{
+    width: 20%;
+}
+#theStickySidebar {
+    padding: 10px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+.part2{
+    display: flex;
+}
+.part2row {
+    width: 80%;
+}
+.part2column {
+    border-right: 1px solid;
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+footer{
+    display: flex;
+    /* float: left;  */
+}
+.footerColumn{
+    padding: 5px;
+    width: 20%;
+}
